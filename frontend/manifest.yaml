@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: balaguru20/frontend:2.0.0
+        image: balaguru20/frontend:1.2.0
         ports:
         - containerPort: 8080
 ---
