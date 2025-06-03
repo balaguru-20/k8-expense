@@ -40,4 +40,4 @@ spec:
   ports:
   - protocol: TCP
     port: 80 # service port, we give whatever port we want
-    targetPort: 80 # It is mondatory 
+    targetPort: 8080 # It is mondatory 
