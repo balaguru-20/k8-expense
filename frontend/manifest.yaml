@@ -25,6 +25,8 @@ spec:
       containers:
       - name: nginx
         image: balaguru20/frontend:2.0.0
+        ports:
+        - containerPort: 8080
 ---
 kind: Service
 apiVersion: v1
